@@ -22,7 +22,7 @@ public class User {
     private String name;
     private String email;
     private String password;
-//    private  String phoneNumber;
+    private  String phoneNumber;
 //    private UserRole role;
 //
 //    private List<OrderItem>orderItemList;
