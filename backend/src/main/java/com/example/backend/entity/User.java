@@ -26,9 +26,9 @@ public class User {
     private UserRole role;
 
     private List<OrderItem>orderItemList;
-//    @OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
-//    private Address address;
-//    private final LocalDateTime createdAt=LocalDateTime.now();
+    @OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    private Address address;
+    private final LocalDateTime createdAt=LocalDateTime.now();
 
 
 }
