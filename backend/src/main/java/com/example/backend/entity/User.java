@@ -23,7 +23,7 @@ public class User {
     private String email;
     private String password;
     private  String phoneNumber;
-//    private UserRole role;
+    private UserRole role;
 //
 //    private List<OrderItem>orderItemList;
 //    @OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
