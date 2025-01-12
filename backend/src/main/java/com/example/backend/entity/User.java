@@ -22,18 +22,18 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Name is required")
+    @NotBlank(message = "Name is required please add")
     private String name;
 
     @Column(unique = true)
-    @NotBlank(message = "Email is required")
+    @NotBlank(message = "Email is required please add")
     private String email;
 
-    @NotBlank(message = "Password number is required")
+    @NotBlank(message = "Password number is required please add")
     private String password;
 
     @Column(name = "phone_number")
-    @NotBlank(message = "Phone number is required")
+    @NotBlank(message = "Phone number is required please add")
     private  String phoneNumber;
 
     private UserRole role;
